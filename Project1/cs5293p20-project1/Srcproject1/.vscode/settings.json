@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "no",
+            "database": "${workspaceFolder:project0}/normanpd.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

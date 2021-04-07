@@ -1,0 +1,58 @@
+Author @ CHITTURI JAGADISHCHANDRA
+------------------------
+
+## Project Overview- PYTHON PROJECT1 
+
+ TO EXTRACT TEXTUAL INFORMATION FROM THE FILES AND REDACT FEW PI(PERSONAL INFORMATION) FIELDS, CONCEPTS AND
+ STORE RESULT IN A OUTPUT FOLDER, USING SPACY( A PYTHON NLP LIBRARY ).
+ 
+ HTTPS://OUDALAB.GITHUB.IO/CS5293SP21/PROJECTS/PROJECT1
+
+
+## Dependency installation
+INSTALL INSTRUCTIONS FOR DEPENDENT PYTHON MODULES OR LIBRARIES
+
+pip install pipenv (will DOWNLOAD pipenv ,install latest python version if pipenv latest version isn't compactable with your Python version.pipenv --version #to check path has been added to env)
+1) argparse
+2) spacy
+3) numpy
+
+CHECK requirements.txt FOR THE LIST OF DEPENDENT MODULES.
+
+### INSTALL DEPENDENT MODULES USING REQUIREMENTS.TXT (NAVIGATE TO REQUIREMENTS.TXT FOLDER USE THE COMMAND TO INSTALL DEPENDENCIES )
+      pip install -r requirements.txt
+### Anyone of model Package
+      python -m spacy download en_core_web_trf
+      python -m spacy download en_core_web_lg -large (larger the model more time complexity)
+      python -m spacy download en_core_web_sm - small(smaller the model/dataset less accurate the results)
+
+### spacy installation using pip- optional
+      pip install -U pip setuptools wheel
+      pip install -U spacy
+      python -m spacy download en_core_web_trf
+
+ 
+
+## Run INSTRUCTIONS : NAVIGATE TO <i>Srcproject1<i> FOLDER PASS ARGUMENTS AS PER FORMAT 
+      python redactor.py --input '*.txt' \
+                         --names --dates --phones \
+                         --concept 'kids' \
+                         --output 'files/' \
+                         --stats stderr
+Flags used name,date,gender,gpe,phone -5 total
+
+
+## CODE Overview
+--------------
+
+PROJECT EXECUTION STARTS WITH redacted.py THE MAIN PROGRAM USES THE FUNCTIONS THAT ARE DEFINED IN project1.py WHICH IS IMPORTED(do not change the relative FOLDER position)
+
+MAIN CHECKS FOR ARGUMENTS LIKE --input,--OUTPUT AND ATLEAST ONE WORD TO REDACT AS RUNTIME ARGUMENT, OTHER ARGUMENTS ARE NOT MANDATED AND MULTIPLE ARGUMENTS CAN BE USED FOR ANY ARGUMENT CATEGORY.
+WHICH IS PARSED TO GET LISTS USING argparse MODULE,
+
+SUMMARY OF INCIDENTS AND THE FREQUENCY OF EACH FLAG IS PRINTED.
+
+
+
+#pipenv --rm to remove env or delete pip file in dir.
+

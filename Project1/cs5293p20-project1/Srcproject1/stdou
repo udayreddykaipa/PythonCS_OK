@@ -1,0 +1,72 @@
+DATE : 63
+PERSON : 166
+GPE : 0
+GENDERS : 0
+PHONES : {'(541) 754-3010', '(123) 456 789', '(123) 456 7889', '(541) 754-310'}
+SENTENCE : {'The investigation leading to this report found evidence of racial bias in policing outcomes, but not proof of pervasive racism.'}
+DATE : 63
+PERSON : 166
+GPE : 0
+GENDERS : 0
+PHONES : {'(123) 456 7889', '(541) 754-310', '(123) 456 789', '(541) 754-3010'}
+SENTENCE : {'The investigation leading to this report found evidence of racial bias in policing outcomes, but not proof of pervasive racism.'}
+DATE : 63
+PERSON : 166
+GPE : 0
+GENDERS : 0
+PHONES : {'(123) 456 7889', '(123) 456 789', '(541) 754-3010', '(541) 754-310'}
+SENTENCE : {'These citations cost people time and money to resolve, contributing to their poverty.', 'Interview\n'}
+DATE : 63
+PERSON : 166
+GPE : 0
+GENDERS : 0
+PHONES : {'(123) 456 7889', '(541) 754-310', '(123) 456 789', '(541) 754-3010'}
+SENTENCE : {'These citations cost people time and money to resolve, contributing to their poverty.', 'Interview\n'}
+DATE : 63
+PERSON : 166
+GPE : 0
+GENDERS : 0
+PHONES : {'(541) 754-310', '(123) 456 789', '(541) 754-3010', '(123) 456 7889'}
+SENTENCE : {'Interview\n', 'These citations cost people time and money to resolve, contributing to their poverty.'}
+DATE : 23
+PERSON : 13
+GPE : 0
+GENDERS : 0
+PHONES : set()
+SENTENCE : set()
+DATE : 23
+PERSON : 13
+GPE : 29
+GENDERS : 0
+PHONES : set()
+SENTENCE : set()
+DATE : 23
+PERSON : 13
+GPE : 29
+GENDER : 0
+PHONES : set()
+SENTENCE : set()
+DATE : 63
+PERSON : 58
+GPE : 163
+GENDER : 0
+PHONES : {'(123) 456 7889', '(541) 754-3010', '(123) 456 789', '(541) 754-310'}
+SENTENCE : {'Interview\n', 'These citations cost people time and money to resolve, contributing to their poverty.'}
+DATE : 63
+PERSON : 60
+GPE : 163
+GENDER : 0
+PHONES : {'(123) 456 7889', '(541) 754-310', '(123) 456 789', '(541) 754-3010'}
+SENTENCE : {'These citations cost people time and money to resolve, contributing to their poverty.', 'Interview\n'}
+DATE : 63
+PERSON : 60
+GPE : 163
+GENDER : 0
+PHONES : {'(123) 456 7889', '(123) 456 789', '(541) 754-310', '(541) 754-3010'}
+SENTENCE : {'These citations cost people time and money to resolve, contributing to their poverty.', 'Interview\n'}
+DATE : 63
+PERSON : 60
+GPE : 163
+GENDER : 746
+PHONES : {'(123) 456 789', '(541) 754-3010', '(123) 456 7889', '(541) 754-310'}
+SENTENCE : {'Interview\n'}
